@@ -1,6 +1,7 @@
 import { Instrument_Serif, Plus_Jakarta_Sans } from "next/font/google";
 import Header from "@/components/layout/Header";
 import "@/app/globals.css";
+import Footer from "@/components/sections/footer/Footer";
 
 const instrumentSerif = Instrument_Serif({
   weight: "400",
@@ -36,6 +37,7 @@ const RootLayout = ({ children }) => {
 
         {/* Main page content */}
         <main>{children}</main>
+        <Footer />
       </body>
     </html>
   );
