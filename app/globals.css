@@ -1,31 +1,33 @@
 @import "tailwindcss";
 
 @theme {
-  --color-obsidian: #0a0a0b;
-  --color-obsidian-light: #151518;
-  --color-obsidian-card: #121214;
+  /* Deep Navy Backgrounds from Client Sample */
+  --color-obsidian: #07090e;
+  --color-obsidian-light: #0f141f;
+  --color-obsidian-card: #0d121d;
 
-  --color-gold: #c9a45c;
-  --color-gold-highlight: #e3c47a;
+  /* Refined Gold Theme */
+  --color-gold: #d4af37;
+  --color-gold-highlight: #e5c158;
+  --color-gold-muted: #997a26;
 
-  --color-ivory: #f7f3ea;
-  --color-ivory-muted: #eae5d9;
+  /* Soft Ivory & Slate Typography */
+  --color-ivory: #f9f9fb;
+  --color-stone: #94a3b8;
+  --color-stone-dark: #475569;
 
-  --color-stone: #a9a39a;
-  --color-stone-dark: #6b655d;
-
-  --color-emerald-success: #2e8b67;
-  --color-crimson-alert: #c85c5c;
+  --color-emerald-success: #10b981;
+  --color-crimson-alert: #ef4444;
 
   --font-serif: var(--font-serif), serif;
   --font-sans: var(--font-sans), sans-serif;
 
-  --shadow-gold-glow: 0 0 25px -5px rgba(201, 164, 92, 0.15);
+  --shadow-gold-glow: 0 0 30px -5px rgba(212, 175, 55, 0.2);
 }
 
 :root {
-  --background: #0a0a0b;
-  --foreground: #f7f3ea;
+  --background: #07090e;
+  --foreground: #f9f9fb;
 }
 
 body {
