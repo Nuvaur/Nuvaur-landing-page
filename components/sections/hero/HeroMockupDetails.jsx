@@ -6,11 +6,11 @@ const HeroMockupDetails = ({ livePrice, planStatus, custodyId }) => {
   return (
     <>
       <div className="space-y-3 pt-2">
-        <div className="flex items-center justify-between p-3 rounded-lg bg-obsidian/60 border border-stone/10 text-xs">
+        <div className="flex items-center justify-between p-3 rounded-lg bg-obsidian-light/60 border border-stone/10 text-xs">
           <span className="text-stone">Live Gold Price (per gram)</span>
           <span className="text-ivory font-semibold">{livePrice}</span>
         </div>
-        <div className="flex items-center justify-between p-3 rounded-lg bg-obsidian/60 border border-stone/10 text-xs">
+        <div className="flex items-center justify-between p-3 rounded-lg bg-obsidian-light/60 border border-stone/10 text-xs">
           <span className="text-stone">Recurring Purchase Plan</span>
           <span className="text-gold font-medium">{planStatus}</span>
         </div>
