@@ -1,21 +1,22 @@
 @import "tailwindcss";
 
 @theme {
-  /* Deep Navy Backgrounds from Client Sample */
-  --color-obsidian: #07090e;
-  --color-obsidian-light: #0f141f;
-  --color-obsidian-card: #0d121d;
+  /* Rich Navy Blue Background Palette */
+  --color-obsidian: #0a0e17;
+  --color-obsidian-light: #111827;
+  --color-obsidian-card: #151d2a;
 
-  /* Refined Gold Theme */
+  /* Premium Gold Accents */
   --color-gold: #d4af37;
   --color-gold-highlight: #e5c158;
   --color-gold-muted: #997a26;
 
-  /* Soft Ivory & Slate Typography */
+  /* Clean Ivory & Slate Typography */
   --color-ivory: #f9f9fb;
   --color-stone: #94a3b8;
   --color-stone-dark: #475569;
 
+  /* Status Colors */
   --color-emerald-success: #10b981;
   --color-crimson-alert: #ef4444;
 
@@ -26,7 +27,7 @@
 }
 
 :root {
-  --background: #07090e;
+  --background: #0a0e17;
   --foreground: #f9f9fb;
 }
 
