@@ -1,9 +1,11 @@
+import FaqSection from "@/components/sections/faq/FaqSection";
 import Hero from "@/components/sections/hero/Hero";
 import HowItWorks from "@/components/sections/how-it-works/HowItWorks";
 import ProblemSection from "@/components/sections/problem/ProblemSection";
 import ProductShowcase from "@/components/sections/product-showcase/ProductShowcase";
 import SecuritySection from "@/components/sections/security/SecuritySection";
 import TrustStrip from "@/components/sections/trust-strip/TrustStrip";
+import WaitlistSection from "@/components/sections/waitlist/WaitlistSection";
 
 const Home = () => {
   return (
@@ -14,6 +16,8 @@ const Home = () => {
       <HowItWorks />
       <ProductShowcase />
       <SecuritySection />
+      <FaqSection />
+      <WaitlistSection />
     </div>
   );
 };
